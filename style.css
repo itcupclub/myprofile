@@ -1,0 +1,50 @@
+html, body{
+  background-color: #f37021;
+}
+
+h1{
+  font-family: "Nanum Gothic";
+  font-size: 42px;
+  color: #5A3226;
+}
+
+h2{
+  color: #8A2BE2;
+  font-family: "Chalkboard", sans-serif;
+  background-color: #c0c0c0;
+  display: flex;
+}
+
+.cv{
+  width: 1000px;
+  display: flex;
+}
+
+.photo{
+  width: 32.5%;
+  background-image: url(https://i.imgur.com/kgFnHHr.jpg);
+  background-size: cover;
+  width: 270px;
+  height: 250px;
+  border: 5px outset brown;
+}
+
+.info{
+  width: 75%;
+  padding: 20px;
+}
+
+.smalltext{
+  font-size: 20px;
+  color: #222;
+}
+
+p, ul li, li{
+  font-family: "Corbel";
+  font-size: 16px;
+}
+
+span{
+  font-size: 18px;
+  color: #3a3b3c;
+}
